@@ -8,9 +8,9 @@ body {
   text-align: justify
 }
 
-
 article section, footer section, header {
   margin: 1em 1em 3em 1em;
+  line-height: 1.5
   /* порядок сторін: top, right, bottom, left. Щоб запам'ятати, є слово "trouble" */
 }
 
