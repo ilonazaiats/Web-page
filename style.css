@@ -11,7 +11,6 @@ body {
 article section, footer section, header {
   margin: 1em 1em 3em 1em;
   line-height: 1.5
-  /* порядок сторін: top, right, bottom, left. Щоб запам'ятати, є слово "trouble" */
 }
 
 @media screen and (min-width: 800px) {
@@ -23,16 +22,14 @@ article section, footer section, header {
 
 
 
-/* Позменшуйте-збільшуйте браузер, щоб глянути на зміни */
 @media screen and (min-width: 1100px) {
   article section, footer section, header {
     margin: 1em 20% 3em 20%; 
   }
 }
 
-/* Розмір картинок */
 figure {
-  margin: 2em 0; /* 1 — top, bottom, 2—right, left */
+  margin: 2em 0; 
 }
 
 section.text img {
@@ -63,10 +60,8 @@ header h2 {
   font-weight: 300;
   line-height: 1.75;
   font-style: italic;
-  /* "жирнота" шрифту, 400 — нормальний, 300-100 легкий, 600-800 — жирний */
 }
 
-/* Далі додамо стилів */
 section {
   margin-bottom: 2em;
   border-bottom: 1px dashed #B6B6B6
@@ -93,7 +88,6 @@ a {
   transition: background-color 0.3s;
 }
 
-/* cтиль при неведенні миші на лінк */
 a:hover {
   background-color: #F0E60C;
 }
@@ -102,7 +96,7 @@ article {
   margin-bottom: 2em;
 }
 
-/* Футер білий */
+
 footer {
   background-color: #fefde5;
   color: #212121;
